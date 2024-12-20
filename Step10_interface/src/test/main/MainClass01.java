@@ -13,5 +13,9 @@ public class MainClass01 {
 		Remocon r1 = new MyRemocon();
 		r1.down();
 		r1.up();
+		
+		//Remocon 인터페이스에 정의된 static final 상수 참
+		String result = Remocon.COMPANY;//"LG"
+		//Remocon.COMPANY = "SAMSUNG";
 	}
 }
