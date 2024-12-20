@@ -13,7 +13,7 @@ package test.mypac;
 public interface Remocon {
 	/*
 	 *  필드도 가질 수 있지만 static final 만 가능하다
-	 *  static : static 영역에 Remocon 인터페이스와 같이 ㅁ나들어 진다
+	 *  static : static 영역에 Remocon 인터페이스와 같이 만들어 진다
 	 *   final : 같이 결정된 이후에 변경 불가능 (상수화 시킨다)
 	 		생략 가능
 	 */
