@@ -1,5 +1,6 @@
 package test.main;
 
+import test.mypac.MyArrow;
 import test.mypac.Weapon;
 
 public class MainClass05 {
@@ -23,6 +24,10 @@ public class MainClass05 {
 				System.out.println("김구라를 공격하라!");
 			}
 		});
+		System.out.println("");
+		Weapon w9 = new MyArrow();
+		useWeapon(w9);
+		
 	}	
 	
 	public static void useWeapon(Weapon w) {
