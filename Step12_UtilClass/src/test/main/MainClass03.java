@@ -33,6 +33,8 @@ public class MainClass03 {
 		 * ArrayList 객체에 저장된 item 을 순서대로 매개 변수에 전달해준다*/
 		greets.forEach(con);
 		
+		greets.forEach(greet -> System.out.println(greet));
+		
 		System.out.println("-------2-------");
 		
 		Consumer<String> con2 = (t)->{
