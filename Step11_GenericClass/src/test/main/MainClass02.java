@@ -6,8 +6,8 @@ import test.mypac.Pair;
 public class MainClass02 {
 	public static void main(String[] args) {
 	/*
-	 * key 값을 어떤 typr으로 설정할까?
-	 * value 값을 어떤 type으로 설정할까?
+	 * key 값을 어떤 type 으로 설정할까?
+	 * value 값을 어떤 type 으로 설정할까?
 	 * 를  결정해서 2가지의 generic 클래스를 지정해야 한다
 	 *  */
 		
